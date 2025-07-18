@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  #TODO Update the linux-template service to match the project
+  linux-template:
+    image: linux-template
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
