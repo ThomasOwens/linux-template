@@ -1,4 +1,4 @@
-FROM debian:12-slim
+FROM debian:13-slim
 
 # TODO Update label for the project.
 LABEL Name=linux-template Version=0.1.0
